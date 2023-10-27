@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de pessoas</title>
+</head>
+<body>
+    <table border=1>
+        <thead>
+        <tr style="background-color: #F0F0F0;">
+        <th><img style="width:20px;" src="images/eitar.png" alt=""></th>
+        <th ><img style="width:20px;" src="images/Excluir.png" alt=""></th>
+        <th> Id </th>
+        <th> Nome </th>
+        <th> Endereco </th>
+        <th> Bairro </th>
+        <th> Telefone </th>
+        <th> Email </th>
+
+        </tr>
+        </thead>
+        <tbody>
+        {items}
+        </tbody>
+        </table>
+        <button onclick="window.location='index.php?class=PessoaForm'">
+        Inserir
+        </button>
+        
+</body>
+</html>

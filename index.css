@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.formulario_cadastro {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border:1px solid black;
+    border-radius:20px;
+    width:300px;
+    margin-top:50px;
+    background-color:#f2f2f2;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.div_label{
+    display:flex;
+    flex-direction:column;
+    width:200px;
+    align-items:center;
+}
+.input_container{
+    border:1px solid    ;
+    border-radius:7px;
+    padding-left:10px;
+    width:200px;
+}
+.button_submit{
+    width:100px;
+    border:1px solid black;
+    border-radius:7px;
+}

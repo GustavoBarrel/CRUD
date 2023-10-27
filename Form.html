@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <a href="index.php?class=PessoaList"><button class="button_submit">voltar</button></a>
+    </div>
+    <form enctype="multipart/form-data" method="post" action="index.php?class=PessoaForm&method=save">
+    
+            <div class='div_label'>
+            <label>Código</label>
+            <input placeholder="{id}" class='input_container' name="id" readonly="1" type="text" value="{id}">
+        </div>
+        <div class='div_label'>
+            <label>Nome</label>
+            <input placeholder="{nome}" class='input_container' name="nome" type="text" value="{nome}">
+        </div>
+        <div class='div_label'>
+            <label>Endereço</label>
+            <input class='input_container' name="endereco" type="text" value="{endereco}">
+        </div>
+        <div class='div_label'>
+            <label>Bairro</label>
+            <input class='input_container' name="bairro" type="text" value="{bairro}">
+        </div>
+        <div class='div_label'>
+            <label>Telefone</label>
+            <input class='input_container' name="telefone" type="text" value="{telefone}">
+        </div>
+        <div class='div_label'>
+            <label>Email</label>
+            <input class='input_container' name="email" type="text" value="{email}">
+        </div>
+        <input class="button_submit" type="submit">
+    </form>
+    
+</body>
+</html>
